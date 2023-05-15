@@ -33,7 +33,7 @@ public final class SelectSort {
    */
   public static int[] selectSort(int[] array) {
     for (int i = 0; i < array.length; i++) {
-      // declaration of the index of the minimum numberfjdkshjfkladhjkflhdsajklhfjdklas
+      // declaration of the index of the minimum number
       int minIndex = i;
       for (int j = i + 1; j < array.length; j++) {
         // set the minimum index to be equal to the true minimum number
