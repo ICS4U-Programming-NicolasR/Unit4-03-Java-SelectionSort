@@ -1,8 +1,7 @@
 Incorrect input: For input string: "110.4"
 Your array sorted is[0, 15, 20, 24, 270, 334, 355, 355, 409, 456]
 Your array sorted is[21, 64, 180, 219, 236, 368, 382, 395, 428, 462]
-Incorrect input: For input string: ""
-Your array sorted is[0]
+Invalid Input: Empty value
 Your array sorted is[32, 72, 78, 98, 114, 203, 380, 436, 468, 488]
 Your array sorted is[10, 38, 93, 269, 283, 298, 381, 388, 451, 489]
 Incorrect input: For input string: "hello"

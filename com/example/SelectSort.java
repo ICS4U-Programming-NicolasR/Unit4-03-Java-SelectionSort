@@ -65,6 +65,11 @@ public final class SelectSort {
       while (inputFile.hasNextLine()) {
         // strip the string and convert to int
         final String numberStr = inputFile.nextLine().strip();
+        // check if empty
+        if (numberStr.equals("")) {
+          writer.write("Invalid Input: Empty value\n");
+          continue;
+        }
         // split the values by spaces
         final String[] numbersSplit = numberStr.split(" ");
         // create the numbers integer array
