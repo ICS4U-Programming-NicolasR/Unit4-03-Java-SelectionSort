@@ -41,6 +41,7 @@ public final class SelectSort {
           minIndex = j;
         }
       }
+      // swap the variables in the array
       int temp = array[i];
       array[i] = array[minIndex];
       array[minIndex] = temp;
@@ -72,7 +73,7 @@ public final class SelectSort {
           try {
             numbers[i] = Integer.parseInt(numbersSplit[i]);
           } catch (NumberFormatException error) {
-            System.err.println("Incorrect input: " + error.getMessage());
+            writer.write("Incorrect input: " + error.getMessage() + "\n");
           }
         }
         // sort the numbers then display
