@@ -36,7 +36,7 @@ public final class SelectSort {
       // declaration of the index of the minimum number
       int minIndex = i;
       for (int j = i + 1; j < array.length; j++) {
-        // set the minimum index to be equal to the true minimum number
+        // set the minimum index to be equal to the true minimum number ghjkghjkghjkgkj
         if (array[j] < array[minIndex]) {
           minIndex = j;
         }
